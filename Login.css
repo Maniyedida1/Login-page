@@ -1,0 +1,73 @@
+body{
+    background: url(https://imgs.search.brave.com/pcJH5UKEMjgTDSbHFx6osilRj7rm04IHliSvFKrd4WM/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly90My5m/dGNkbi5uZXQvanBn/LzA1Lzg3LzM2LzY2/LzM2MF9GXzU4NzM2/NjY4Ml93N0NxeUUz/M0oxWjdYRW13NDJ2/MUFKRmVSd0JvZHhF/bS5qcGc);
+    width: 100%;
+    height: 100vh;
+    font-family: sans-serif;
+}
+
+.signup{
+    width: 360px;
+    height: 800px;
+    margin: auto;
+    background: white;
+    border-radius: 3px;
+}
+
+.login{
+    width: 360px;
+    height: 320px;
+    margin: auto;
+    background: white;
+    border-radius: 3px;
+}
+
+h1{
+    text-align: center;
+}
+
+h4{
+    text-align: center;
+    padding-top: 15px;
+}
+
+form{
+    width: 300px;
+    margin-left: 20px;
+}
+
+form label{
+    display: flex;
+    margin-top: 20px;
+    font-size: 18px;
+}
+
+form input{
+    width: 100%;
+    padding: 7px;
+    border: none;
+    border: 1px solid gray;
+    border-radius: 6px;
+    outline: none;
+}
+
+input[type="submit"]{
+    width: 320px;
+    height: 35px;
+    margin-top: 20px;
+    border: none;
+    background-color: #ff7200;
+    color: white;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover{
+    color: white;
+    background: rgb(13, 211, 247);
+}
+
+p{
+    text-align: center;
+    padding-top: 20px;
+    font-size: 15px;
+}
